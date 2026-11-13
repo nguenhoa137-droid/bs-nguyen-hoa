@@ -1275,6 +1275,14 @@ img {
 
 .float-btn.yt {
     background: linear-gradient(135deg, #ff0000, #cc0000);
+    animation: pulseYoutube 2.2s infinite;
+    box-shadow: 0 8px 24px rgba(255, 0, 0, 0.45);
+}
+
+@keyframes pulseYoutube {
+    0% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7); }
+    70% { box-shadow: 0 0 0 14px rgba(255, 0, 0, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0); }
 }
 
 .float-tooltip {
