@@ -332,6 +332,18 @@ img {
     box-shadow: 0 12px 28px rgba(24, 119, 242, 0.45);
 }
 
+.btn-youtube {
+    background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
+    color: #ffffff;
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.28);
+}
+
+.btn-youtube:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(255, 0, 0, 0.45);
+    color: #ffffff;
+}
+
 .btn-outline {
     background: var(--bg-card);
     color: var(--primary);
@@ -1259,6 +1271,10 @@ img {
 
 .float-btn.fb {
     background: linear-gradient(135deg, #1877f2, #0d5bd9);
+}
+
+.float-btn.yt {
+    background: linear-gradient(135deg, #ff0000, #cc0000);
 }
 
 .float-tooltip {
